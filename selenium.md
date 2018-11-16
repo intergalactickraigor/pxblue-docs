@@ -49,7 +49,7 @@ In general, this is the order in which you should try to use various locator typ
 7. CSS
 8. XPath
 
-\*Any other locator types beyond this are rarely used and require additional code to test, which is difficult to maintain if and when changes occur.
+Any other locator types beyond this are rarely used and require additional code to test, which is difficult to maintain if and when changes occur.
 
 ##### ID Locators
 ID locators are generally the safest locator option and should always be the first choice. By W3C standards, IDs should be unique on the page, meaning you will never have a problem with finding more than one element matching the locator. The ID is also independent of the element type and location in the tree, so if the developing team moves an element or changes its type, WebDriver can still locate it.
@@ -64,10 +64,12 @@ CSS and Xpath locators are very similar to one another. These locators can use c
 When writing a CSS or Xpath locator, the trick is finding the balance between strict and loose - you want it to be durable enough to withstand HTML changes, but strict enough to fail when the app fails. A good rule of thumb is to make sure to start your CSS or XPath locators with an element that has an ID attribute.
 
 CSS and XPath also allow you to select elements based on a custom attribute. For example:
+
 ```<input userName="userName"></input>```
+
 We can identify this web element either by CSS or XPath as:
-CSS=input[username='userName']
-XPATH=//input[@username='userName']
+* CSS: input[username='userName']
+* XPATH: //input[@username='userName']
 
 For all locator types, with the exception of XPath, there is the possibility that they do not identify an element uniquely every time. There may be instances where you have two matches using the same locator and therefore By Xpath becomes the ideal choice. 
 It is always advisable to use custom Xpath because **more often than not** they will always identify the element uniquely.
