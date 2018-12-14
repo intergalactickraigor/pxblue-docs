@@ -1,5 +1,5 @@
 # Testing with Selenium Web-Driver
-**What is selenium web driver?** Selenium is...
+WebDriver is a web automation framework that allows you to execute your tests against different browsers. WebDriver also enables you to use a programming language in creating your test scripts. https://www.seleniumhq.org/projects/webdriver/
 
 ## Identifying elements in an application
 Selenium web-driver uses 8 locators to find elements in an application:
