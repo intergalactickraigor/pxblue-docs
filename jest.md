@@ -1,54 +1,62 @@
-#Jest Snapshot testing 
-Integrated testing solution written by Facebook and is a useful tool if you want to make sure your User Interface does not change unexpectedly. Snapshot testing works best when the User Interface has been hardened or the User Interface will not be changing often.
+# Introduction to Jest
+Jest is a testing platform built by Facebook for testing JavaScript applications. It is touted as providing a "zero configuration" experience to enable developers to write more test faster and more efficiently. You can read more on the [Jest Website](https://jestjs.io/).
 
-Jest also offers the ability to run all tests including unit tests, integration tests and component test by utilizing the jsdom and will run in the Continuous Integrations normally without a browser configuration.
+## Snapshot testing 
+Snapshot testing saves a 'snapshot' of your user interface that you can then later use for comparison when updates are made to your components. If the newly rendered component does not match the expected (i.e., the saved snapshot), the test will fail. Snapshot testing is a useful tool if you want to make sure your user interface does not change unexpectedly and works best when the user interface has been hardened/will not be changing often. It is not useful to attempt snapshot testing with a dynamic interface, though you can use multiple snapshots to test various allowable states of your components.
 
-Jest Snapshot testing should be focused specifically on components within the application by rendering each component one by one.
-##Examples of component areas for snapshot testing:
-Form control components
-Navigation components
-Layout components
-Buttons and Indicator components
-Popups and Modal components
+> Jest also offers the ability to run unit tests, integration tests, and component test by utilizing [JSDOM](https://airbnb.io/enzyme/docs/guides/jsdom.html), which will run the continuous integrations normally without a browser configuration.
 
-Jest Snapshot testing can be achieved on most Java platforms and currently supports Angular and React with minimal configurations.
-React projects have the Jest framework built-in, if the project was setup using the “create-react-app” cli.
-Angular projects require manual configuration since Jest is not built in.
+Snapshot testing should be focused specifically on individual components within the application. Some possible areas for snapshot testing include:
+* Form control components
+* Navigation components
+* Layout components
+* Buttons and Indicator components
+* Popups and Modal components
 
-To start Snapshot testing install the tools below and follow the basic example 
+## Support
+Jest testing can be utilized with most JavaScript frameworks and currently supports Angular and React with minimal configuration.
+React projects have the Jest framework built-in as long as the project was created using the ```create-react-app``` CLI. Angular projects require some manual setup since Jest is not built in.
 
-React:
-Yarn add jest –dev (only if jest does not exist in project)
-Yarn add renderer –dev
+## Installation
+To start testing with Jest, install the tools below and follow the basic example .
+
+### React
+```
+yarn add jest –dev
+yarn add renderer –dev
 yarn add @babel/runtime –dev
-import renderer from 'react-test-renderer'; (configuration for test file)
+```
+```
+// YourTestFile.test.js
+import renderer from 'react-test-renderer'; // configuration for test file
+```
 
-Package information
-https://www.npmjs.com/package/jest
+For more information, check out the [NPM package](https://www.npmjs.com/package/jest) or the [Getting Started Guide](https://jestjs.io/docs/en/getting-started) for React.
 
-Jest getting started for React projects.
-https://jestjs.io/docs/en/getting-started
+### Angular
+The following will install jest, @types/jest, ts-jest, and jest-zone-patch
+```
+yarn add -D @types/jest jest jest-preset-angular
+```
+```
+// YourTestFile.e2e-spec.ts
+import 'jest-preset-angular'; // configuration for spec test file
+import './jestGlobalMocks'; // configuration for spec test file
+```
+For more information, check out the [NPM package](https://www.npmjs.com/package/jest-preset-angular) or the [Getting Started Guide](https://www.xfive.co/blog/testing-angular-faster-jest/) for Angular.
 
-Angular:
-yarn add -D @types/jest jest jest-preset-angular (This will install jest, @types/jest, ts-jest, jest-zone-patch)
-import 'jest-preset-angular'; (configuration for spec test file)
-import './jestGlobalMocks'; (configuration for spec test file)
-
-Package information
-https://www.npmjs.com/package/jest-preset-angular
-
-Jest getting started for Angular projects
-https://www.xfive.co/blog/testing-angular-faster-jest/
-
-Test:
+### Writing Snapshot Tests
+```
 it('multi-select app bar renders correctly', () => {
   const tree = renderer
     .create(<Myappbar />)
     .toJSON();
   expect(tree).toMatchSnapshot();
 });
+```
 
-Results:
+#### Results, example:
+```
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 exports[`multi-select app bar renders correctly 1`] = `
 <header
@@ -65,3 +73,4 @@ exports[`multi-select app bar renders correctly 1`] = `
   </div>
 </header>
 `;
+```
