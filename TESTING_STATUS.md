@@ -15,7 +15,7 @@
 ## Code Samples / Stackblitz Examples
 | Package | Branch | Status |
 |-------|--------|--------|
-|[actions-list](https://github.com/pxblue/action-list/tree/angular)|Angular|[![CircleCI](https://circleci.com/gh/pxblue/action-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/action-list/tree/angular)|
+|[action-list](https://github.com/pxblue/action-list/tree/angular)|Angular|[![CircleCI](https://circleci.com/gh/pxblue/action-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/action-list/tree/angular)|
 |[actions-list](https://github.com/pxblue/action-list/tree/react)|React|[![CircleCI](https://circleci.com/gh/pxblue/action-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/action-list/tree/react)|
 |[bottomsheet](https://github.com/pxblue/bottomsheet/tree/angular)|Angular |no tests |
 |[bottomsheet](https://github.com/pxblue/bottomsheet/tree/react)|React |no tests |
