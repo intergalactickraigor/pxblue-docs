@@ -13,7 +13,7 @@
 |[visualizations](https://github.com/pxblue/visualizations/tree/master)| N/A | deprecated - see [highcharts](https://github.com/pxblue/highcharts/tree/master)|
 
 ## Code Samples / Stackblitz Examples
-| Package | Status | Updated |
+| Repository | Status | Updated |
 |-------|--------|---------|
 |[action-list](https://github.com/pxblue/action-list)|![](https://img.shields.io/circleci/project/github/pxblue/action-list/angular.svg?label=Angular&style=flat) ![](https://img.shields.io/circleci/project/github/pxblue/action-list/react.svg?label=React&style=flat)|![](https://img.shields.io/github/last-commit/pxblue/action-list/angular.svg?label=Angular&style=flat) ![](https://img.shields.io/github/last-commit/pxblue/action-list/react.svg?label=React&style=flat)|
 |[bottomsheet](https://github.com/pxblue/bottomsheet)|![](https://img.shields.io/circleci/project/github/pxblue/bottomsheet/angular.svg?label=Angular&style=flat) ![](https://img.shields.io/circleci/project/github/pxblue/bottomsheet/react.svg?label=React&style=flat)|![](https://img.shields.io/github/last-commit/pxblue/bottomsheet/angular.svg?label=Angular&style=flat) ![](https://img.shields.io/github/last-commit/pxblue/bottomsheet/react.svg?label=React&style=flat)|
