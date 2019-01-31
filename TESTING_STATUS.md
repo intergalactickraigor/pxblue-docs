@@ -1,7 +1,7 @@
 # Test Report for PX Blue resources
 
 ## NPM Packages
-| Package | Status | Updated |
+| Repository | Status | Updated |
 |-------|--------|-----------|
 |[colors](https://github.com/pxblue/colors/tree/master)| no tests| ![](https://img.shields.io/github/last-commit/pxblue/colors.svg?style=flat)|
 |[highcharts](https://github.com/pxblue/highcharts/tree/master)| no tests | ![](https://img.shields.io/github/last-commit/pxblue/highcharts.svg?style=flat)|
