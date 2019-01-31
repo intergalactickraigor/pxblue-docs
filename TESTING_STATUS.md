@@ -5,7 +5,7 @@
 |-------|--------|--------|
 |[colors](https://github.com/pxblue/colors/tree/master)|master| no tests|
 |[highcharts](https://github.com/pxblue/highcharts/tree/master)| master| no tests |
-|[icons](https://github.com/pxblue/icons/tree/master)| master |no tests |
+|[icons](https://github.com/pxblue/icons/tree/master)| master | [![CircleCI](https://circleci.com/gh/pxblue/icons/tree/master.svg?style=shield)](https://circleci.com/gh/pxblue/icons/tree/master) |
 |[icons-mui](https://github.com/pxblue/icons-mui/tree/master)| master|no tests |
 |[mapbox](https://github.com/pxblue/mapbox/tree/master)|master| no tests|
 |[symbols-mui](https://github.com/pxblue/symbols-mui/tree/master)|master| no tests|
