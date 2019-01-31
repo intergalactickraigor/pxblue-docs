@@ -1,16 +1,16 @@
 # Test Report for PX Blue resources
 
 ## NPM Packages
-| Package | Branch | Status |
-|-------|--------|--------|
-|[colors](https://github.com/pxblue/colors/tree/master)|master| no tests|
-|[highcharts](https://github.com/pxblue/highcharts/tree/master)| master| no tests |
-|[icons](https://github.com/pxblue/icons/tree/master)| master | ![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat) |
-|[icons-mui](https://github.com/pxblue/icons-mui/tree/master)| master|no tests |
-|[mapbox](https://github.com/pxblue/mapbox/tree/master)|master| no tests|
-|[symbols-mui](https://github.com/pxblue/symbols-mui/tree/master)|master| no tests|
-|[themes](https://github.com/pxblue/themes/tree/master)|master|no tests|
-|[visualizations](https://github.com/pxblue/visualizations/tree/master)|master|deprecated - see [highcharts](https://github.com/pxblue/highcharts/tree/master)|
+| Package | Branch | Status | Updated |
+|-------|--------|--------|-----------|
+|[colors](https://github.com/pxblue/colors/tree/master)|master| no tests| ![](https://img.shields.io/github/last-commit/pxblue/colors.svg?style=flat)|
+|[highcharts](https://github.com/pxblue/highcharts/tree/master)| master| no tests | ![](https://img.shields.io/github/last-commit/pxblue/highcharts.svg?style=flat)|
+|[icons](https://github.com/pxblue/icons/tree/master)| master | ![](https://img.shields.io/circleci/project/github/pxblue/icons/master.svg?style=flat) | ![](https://img.shields.io/github/last-commit/pxblue/icons.svg?style=flat)|
+|[icons-mui](https://github.com/pxblue/icons-mui/tree/master)| master|no tests | ![](https://img.shields.io/github/last-commit/pxblue/icons-mui.svg?style=flat)|
+|[mapbox](https://github.com/pxblue/mapbox/tree/master)|master| no tests| ![](https://img.shields.io/github/last-commit/pxblue/mapbox.svg?style=flat)|
+|[symbols-mui](https://github.com/pxblue/symbols-mui/tree/master)|master| no tests|![](https://img.shields.io/github/last-commit/pxblue/symbols-mui.svg?style=flat)|
+|[themes](https://github.com/pxblue/themes/tree/master)|master|no tests|![](https://img.shields.io/github/last-commit/pxblue/themes.svg?style=flat)|
+|[visualizations](https://github.com/pxblue/visualizations/tree/master)|master| N/A | deprecated - see [highcharts](https://github.com/pxblue/highcharts/tree/master)|
 
 ## Code Samples / Stackblitz Examples
 | Package | Branch | Status |
