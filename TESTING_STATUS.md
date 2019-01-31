@@ -25,7 +25,7 @@
 |[complex-bottomsheet](https://github.com/pxblue/complex-bottomsheet/tree/react)|React| [![CircleCI](https://circleci.com/gh/pxblue/complex-bottomsheet/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/complex-bottomsheet/tree/react)|
 |[data-list](https://github.com/pxblue/data-list/tree/angular)|Angular|[![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/angular)|
 |[data-list](https://github.com/pxblue/data-list/tree/react)|React|[![CircleCI](https://circleci.com/gh/pxblue/data-list/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/data-list/tree/react)|
-|[icon-navigation](https://github.com/pxblue/icon-navigation/tree/angular)|Angular |no tests |
+|[icon-navigation](https://github.com/pxblue/icon-navigation/tree/angular)|Angular |[![CircleCI](https://circleci.com/gh/pxblue/icon-navigation/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/icon-navigation/tree/angular |
 |[icon-navigation](https://github.com/pxblue/icon-navigation/tree/react)|React|[![CircleCI](https://circleci.com/gh/pxblue/icon-navigation/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/icon-navigation/tree/react) |
 |[login](https://github.com/pxblue/login/tree/angular)| Angular  | [![CircleCI](https://circleci.com/gh/pxblue/login/tree/angular.svg?style=shield)](https://circleci.com/gh/pxblue/login/tree/angular)|
 |[login](https://github.com/pxblue/login/tree/react)| React  | [![CircleCI](https://circleci.com/gh/pxblue/login/tree/react.svg?style=shield)](https://circleci.com/gh/pxblue/login/tree/react)|
